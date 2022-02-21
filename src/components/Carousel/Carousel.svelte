@@ -287,6 +287,8 @@
           transform: translateX({offset}px);
           transition-duration: {durationMs}ms;
           transition-timing-function: {timingFunction};
+               height: 100%;
+               overflow: hidden;
         "
         bind:this={particlesContainer}
       >
