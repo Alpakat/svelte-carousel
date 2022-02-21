@@ -252,8 +252,8 @@
   }
 </script>
 
-<div class="sc-carousel__carousel-container" {style}>
-  <div class="sc-carousel__content-container">
+<div class="sc-carousel__carousel-container">
+  <div class="sc-carousel__content-container" {style}>
     {#if arrows}
       <slot name="prev" showPrevPage={methods.showPrevPage}>
         <div class="sc-carousel__arrow-container">
