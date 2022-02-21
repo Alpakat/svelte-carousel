@@ -20,7 +20,7 @@
 
   // used for lazy loading images, preloaded only current, adjacent and cloanable images
   let loaded = []
-  let currentPageIndex
+  export let currentPageIndex
   let progressValue
   let offset = 0
   let durationMs = 0
