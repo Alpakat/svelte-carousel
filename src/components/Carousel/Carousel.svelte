@@ -49,6 +49,8 @@
    * Enable Next/Prev arrows
    */
   export let arrows = true
+  
+  export let style = ''
 
   /**
    * Infinite looping
@@ -250,7 +252,7 @@
   }
 </script>
 
-<div class="sc-carousel__carousel-container">
+<div class="sc-carousel__carousel-container" {style}>
   <div class="sc-carousel__content-container">
     {#if arrows}
       <slot name="prev" showPrevPage={methods.showPrevPage}>
